@@ -1,7 +1,7 @@
 html {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: sans-serif;/* Google fonts*/
 	color: white;
 
 }
@@ -11,21 +11,24 @@ body {
 	background-size: cover;
 	 
 }
-div{
+#main{/* selector de ID*/
 	width: 90%;
-	height:1200%;
+	height:100%;
 	margin:0 auto;
 	padding: 12px;
-	border:1px solid white;
-	background: rgba(119,199,217,0.2);
+	/*border:1px solid white;*/
+	background: rgba(119,199,217,0.2);/*red green blue aplha*/
 
 }
 
 h1 {
-	color: #A0EEFF;
+	color: #A0EEFF; /*hex color*/
+	text-transform: uppercase;
+	font-size: 32px;
 }
 p {
 	color:#F3E6E3;
+	font-size: 16px;
 }
 img {
 	width: 100%;
@@ -33,17 +36,16 @@ img {
 
 }
 
-.article1{
+.tagline{
+
 
 }
 
-.article2{
-	
+.article{
+	width: 33%;
+	display: line-block;
 }
 
-.article3{
-	
-}
 
 section{
 
