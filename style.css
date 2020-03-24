@@ -9,14 +9,19 @@ body {
 	background: url(background.jpg)
 	no-repeat  center center fixed;
 	background-size: cover;
+
 	 
 }
+
+div{
+	border:1px solid white;
+}
+
 #main{/* selector de ID*/
 	width: 90%;
 	height:100%;
 	margin:0 auto;
 	padding: 12px;
-	/*border:1px solid white;*/
 	background: rgba(119,199,217,0.2);/*red green blue aplha*/
 
 }
@@ -26,9 +31,18 @@ h1 {
 	text-transform: uppercase;
 	font-size: 32px;
 }
+
+h2{
+	color: #A0EEFF
+	text-transform: uppercase;
+	text-transform: bold;
+	font-size: 23px;
+}
+
 p {
 	color:#F3E6E3;
 	font-size: 16px;
+	text-align: center;
 }
 img {
 	width: 100%;
@@ -38,13 +52,12 @@ img {
 
 .tagline{
 
-
 }
 
 
 .article{
-	width: 33%;
-	display: line-block;
+	width: 32.9%;
+	display: inline-block;
 }
 
 
